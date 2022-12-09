@@ -1,0 +1,12 @@
+<div class="container mt-5">
+  <h2 class="font-weight-bold">Prinsip UI UX Design</h2>
+  <img src="../assets/images/kegiatan_acp.png" class="img-detail" />
+  <p class="text-justify">Payday is finally here and you’ve got some extra cash to help you stock up your summer wardrobe. Not sure where to start? ASOS Stylist Beccy Goldsworthy is here with the best of what’s new, from 80s-inspired tracksuits to some seriously fresh trainers. Check out her picks below
+    and watch the video for more. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec felis metus. Vivamus eu urna empor, pretium erat quis, volutpat eros. Cras consectetur dolor at venenatis feugiat. Fusce nunc risus, finibus eget augue ac, ornare gravida turpis. Morbi consequat, nisi sit amet viverra feugiat, lacus mauris ornare erat, at pharetra odio dolor id elit. Pellentesque eu aliquet ex. orem ipsum dolor sit amet, consectetur adipiscing elit.
+    ayday is finally here and you’ve got some extra cash to help you stock up your summer wardrobe. Not sure where to start? ASOS Stylist Beccy Goldsworthy is here with the best of what’s new, from 80s-inspired tracksuits to some seriously fresh trainers. Check out her picks below
+    and watch the video for more. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec felis metus. Vivamus eu urna empor, pretium erat quis, volutpat eros. Cras consectetur dolor at venenatis feugiat. Fusce nunc risus, finibus eget augue ac, ornare gravida turpis. Morbi consequat, nisi sit amet viverra feugiat, lacus mauris ornare erat, at pharetra odio dolor id elit. Pellentesque eu aliquet ex. orem ipsum dolor sit amet, consectetur adipiscing elit.
+    Payday is finally here and you’ve got some extra cash to help you stock up your summer wardrobe. Not sure where to start? ASOS Stylist Beccy Goldsworthy is here with the best of what’s new, from 80s-inspired tracksuits to some seriously fresh trainers. Check out her picks below
+    and watch the video for more. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec felis metus. Vivamus eu urna empor, pretium erat quis, volutpat eros. Cras consectetur dolor at venenatis feugiat. Fusce nunc risus, finibus eget augue ac, ornare gravida turpis. Morbi consequat, nisi sit amet viverra feugiat, lacus mauris ornare erat, at pharetra odio dolor id elit. Pellentesque eu aliquet ex. orem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  <hr class="mt-5">
+  <hr class="mt-5">
+</div>
