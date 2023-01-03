@@ -1,95 +1,157 @@
 * {
-  font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
+
+.navbar .nav-item {
+    font-weight: bold;
+    color: white;
+}
+
+.navbar .nav-link {
+    color: white;
+}
+
 .logo {
-  width: 50px !important;
-  height: 50px !important;
+    width: 50px !important;
+    height: 50px !important;
+}
+
+.navbar {
+    /*margin-top: -72px;*/
+    background-color: rgba(10, 38, 71, 0.2);
+    ;
+
 }
 
 .hero {
-  margin-top: 115px;
+    margin-top: -72px;
 }
 
+
+#carouselHero .carousel-item img {
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+    height: 80vh;
+}
+
+.carousel::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    bottom: 0;
+}
+
+
 .hero h2 {
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 59px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
 }
 
 .hero span {
-  font-weight: 700;
-  font-size: 90px;
-  line-height: 60px;
-  /* identical to box height */
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 60px;
+    /* identical to box height */
 
-  color: #2862a7;
+    color: #2862a7;
 }
+
 /*Hero Section*/
 .hero h5 {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 40px;
-  line-height: 29px;
-  /* identical to box height */
-  color: #000000;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 29px;
+    /* identical to box height */
+    color: #000000;
 }
+
 .hero .img-hero {
-  width: 550px;
-  border-radius: 50px;
+    width: 550px;
+    border-radius: 50px;
 }
+
 .hero .btn-getstarted {
-  color: white;
-  border-radius: 35px;
-  background: #2862a7;
-  width: 40%;
+    color: white !important;
+    border-radius: 35px;
+    border: 2px solid black !important;
+    background-color: white !important;
+    width: 40%;
+    cursor: pointer;
 }
+
+.outline-white {
+    border-color: white !important;
+    color: white !important;
+}
+
 .hero .btn-getstarted:hover {
-  color: white;
-  border-radius: 35px;
-  background: #2862a7;
+    color: white;
+    border-radius: 35px;
+    background: #2862a7;
+}
+
+.major {
+    position: relative;
+    z-index: 1;
+    top: -120px;
+    padding: 30px;
+}
+
+.major .card {
+    background-color: #2862a7;
+    color: white;
 }
 
 /*Visi Misi Section*/
 .visi-misi .jumbotron {
-  margin-top: 172px;
-  background: rgba(95, 157, 247, 0.1);
+    background: rgba(95, 157, 247, 0.1);
 }
 
 .visi-misi .display-4 {
-  font-weight: 700;
-  font-size: 42px;
-  line-height: 57px;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 57px;
 
-  color: #000000;
+    color: #000000;
 }
+
 .jurusan {
-  margin-top: 172px !important;
+    margin-top: 172px !important;
+    background-color: #2862a7;
 }
+
 footer {
-  background-color: #2862a7 !important;
+    background-color: #2862a7 !important;
 }
 
 /*Berita*/
 .img-detail {
-  width: 500px !important;
+    width: 100% !important;
+    border-radius: 20px;
 }
 
 /* mobile version */
 @media (max-width: 576px) {
-  .hero .img-hero {
-    display: none !important;
-  }
+    .hero .img-hero {
+        display: none !important;
+    }
 }
 
 /*Utilites*/
 .radius {
-  border-radius: 35px;
+    border-radius: 35px;
 }
 
 .bg-lightblue {
-  background: rgba(95, 157, 247, 0.1);
+    background: rgba(95, 157, 247, 0.1);
 }
 
 .bg-darkblue {
-  background-color: #2862a7;
+    background-color: #2862a7;
 }

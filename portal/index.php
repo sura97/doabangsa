@@ -7,10 +7,14 @@
   <link rel="stylesheet" type="text/css" href="../assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="../assets/style.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400,400i,700,700i,900&display=swap" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" /> -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" /> -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.compat.css" /> -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
     <div class="container">
       <img src="../assets/images/logo.png" class="logo" />
       <!-- <a class="navbar-brand" href="#">Navbar</a> -->
@@ -23,13 +27,13 @@
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="?pg=siswa">Siswa</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Pricing</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled">Disabled</a>
+            <a class="nav-link ">Disabled</a>
           </li>
         </ul>
       </div>
@@ -42,8 +46,8 @@
       break;
 
       // Divisi
-    case 'divisi':
-      include 'divisi/divisi.php';
+    case 'siswa':
+      include 'pages/siswa.php';
       break;
     case 'tambahdivisi':
       include 'divisi/tambah.php';
@@ -126,6 +130,10 @@
   }
   ?>
 </body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="../assets/bootstrap/js/bootstrap.js"></script>
 <script src="../assets/bootstrap/js//bootstrap.min.js"></script>

@@ -1,25 +1,77 @@
-<section class="hero">
-  <div class="container">
-    <div class="d-flex justify-content-between align-items-center">
-      <div class="info-header">
-        <h2>SMK DOA BANGSA</h2>
-        <div class="d-flex">
-          <div><span>&</span></div>
-          <div class="ml-2">
-            <h5> Jujur Ikhlas</h5>
-            <h5> Amanah</h5>
-          </div>
+<!-- hero -->
+<section class="hero ">
+  <div id="carouselHero" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner" id="carouselHero">
+    <div class="carousel-item active">
+      <img src="../assets/images/slide1.jpeg" class="d-block w-100 img-carousel" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="../assets/images/slide2.jpeg" class="d-block w-100 img-carousel" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="../assets/images/slide3.jpeg" class="d-block w-100 img-carousel" alt="...">
+    </div>
+  </div>
+ <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-target="#carouselExampleControls" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </button>
+</div>
+  <!-- <button type="button" class="btn btn-outline-secondary radius btn-lg mt-5 ml-2">Primary</button> -->
+</section>
+
+<!-- jurusan -->
+<section class="major">
+  <div class="card">
+    <div class="card-body">
+      <div class="row">
+        <div class="col">
+          <img src="../assets/images/rpl.png" width="50">
+          <h5>Rekayasa Perangkat Lunak</h5>
+          <p>Jurusan yang berkaitan dengan komputer</p>
         </div>
-        <button type="button" class="btn btn-getstarted btn-lg mt-3">Join Us </button>
-      </div>
-      <div class="img-heading">
-        <img src="../assets/images/hero.png" class="img-hero" />
+        <div class="col">
+          <img src="../assets/images/rpl.png" width="50">
+          <h5>Rekayasa Perangkat Lunak</h5>
+          <p>Jurusan yang berkaitan dengan komputer</p>
+        </div>
+        <div class="col">
+          <img src="../assets/images/rpl.png" width="50">
+          <h5>Rekayasa Perangkat Lunak</h5>
+          <p>Jurusan yang berkaitan dengan komputer</p>
+        </div>
+        <div class="col">
+          <img src="../assets/images/rpl.png" width="50">
+          <h5>Rekayasa Perangkat Lunak</h5>
+          <p>Jurusan yang berkaitan dengan komputer</p>
+        </div>
       </div>
     </div>
-    <!-- <button type="button" class="btn btn-outline-secondary radius btn-lg mt-5 ml-2">Primary</button> -->
   </div>
 </section>
-<section class="visi-misi">
+
+<!-- profil -->
+<section class="profil mb-5 mt-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col">
+        <iframe width="420" height="345" src="https://www.youtube.com/embed/qHfODVV1rZ0">
+        </iframe>
+      </div>
+      <div class="col">
+        <h3 class="font-weight-bold">Profil Sekolah</h3>
+        <p>Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. Culpa proident adipisicing id nulla nisi laboris ex in Lorem sunt duis officia eiusmod. Aliqua reprehenderit commodo ex non excepteur duis sunt velit enim. Voluptate laboris sint cupidatat ullamco ut ea consectetur et est culpa et culpa duis.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- visi misi -->
+<section class="visi-misi" data-aos="zoom-in" data-aos-duration="3000">
   <div class="container">
     <div class="jumbotron">
       <h5 class="display-4 text-center">Visi & Misi</h5>
@@ -30,68 +82,77 @@
     </div>
   </div>
 </section>
-<section class="jurusan" style="margin-top: 172px;">
+
+<!-- profil -->
+<section class="profil mb-5 mt-5 ">
   <div class="container">
-    <div class="jumbotron bg-lightblue">
-      <h3 class="font-weight-bold mb-4">Jurusan</h3>
-      <div class="row">
-        <div class="col-md-6 mb-4">
-          <div class="card">
-            <div class="card-body">
-              <div class="d-flex">
-                <img src="../assets/images/rpl.png">
-                <div class="info align-center ml-2">
-                  <h5 class="font-weight-bold">Rekaya Perangkat Lunak</h5>
-                  <p>Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.</p>
-                </div>
-              </div>
-            </div>
+    <div class="row align-items-center">
+      <div class="col">
+        <iframe width="420" height="345" src="https://www.youtube.com/embed/mMMYrelRhTk">
+        </iframe>
+      </div>
+      <div class="col">
+        <h3 class="font-weight-bold">Profil Guru SMK Doa Bangsa</h3>
+        <p>Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. Culpa proident adipisicing id nulla nisi laboris ex in Lorem sunt duis officia eiusmod. Aliqua reprehenderit commodo ex non excepteur duis sunt velit enim. Voluptate laboris sint cupidatat ullamco ut ea consectetur et est culpa et culpa duis.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="news" style="margin-top: 172px;" data-aos="zoom-in-left" data-aos-duration="3000">
+  <div class="container">
+    <h3 class="font-weight-bold">Prestasi</h3>
+    <div class="row">
+      <div class="col-4 col-sm-12 col-md-6 col-lg-3 ">
+        <div class="card">
+          <img src="../assets/images/kegiatan_acp.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title font-weight-bold">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <!-- <a href="?pg=detail" class="btn btn-primary">Go somewhere</a> -->
+            <span class="badge badge-secondary">Akademis</span>
           </div>
         </div>
-        <div class="col-md-6">
-          <div class="card">
-            <div class="card-body">
-              <div class="d-flex">
-                <img src="../assets/images/rpl.png">
-                <div class="info align-center ml-2">
-                  <h5 class="font-weight-bold">Rekaya Perangkat Lunak</h5>
-                  <p>Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.</p>
-                </div>
-              </div>
-            </div>
+      </div>
+      <div class="col-4 col-sm-12 col-md-6 col-lg-3">
+        <div class="card">
+          <img src="../assets/images/kegiatan_acp.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title font-weight-bold">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            <span class="badge badge-secondary">Akademis</span>
           </div>
         </div>
-        <div class="col-md-6">
-          <div class="card">
-            <div class="card-body">
-              <div class="d-flex">
-                <img src="../assets/images/rpl.png">
-                <div class="info align-center ml-2">
-                  <h5 class="font-weight-bold">Rekaya Perangkat Lunak</h5>
-                  <p>Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.</p>
-                </div>
-              </div>
-            </div>
+      </div>
+      <div class="col-4 col-sm-12 col-md-6 col-lg-3">
+        <div class="card">
+          <img src="../assets/images/kegiatan_acp.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title font-weight-bold">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <!-- <a href="#" class="btn btn-primary">Go somewhere</a>  -->
+            <span class="badge badge-secondary">Akademis</span>
           </div>
         </div>
-        <div class="col-md-6">
-          <div class="card">
-            <div class="card-body">
-              <div class="d-flex">
-                <img src="../assets/images/rpl.png">
-                <div class="info align-center ml-2">
-                  <h5 class="font-weight-bold">Rekaya Perangkat Lunak</h5>
-                  <p>Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.</p>
-                </div>
-              </div>
-            </div>
+      </div>
+      <div class="col-4 col-sm-12 col-md-6 col-lg-3">
+        <div class="card">
+          <img src="../assets/images/kegiatan_acp.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title font-weight-bold">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <!-- <a href="#" class="btn btn-primary">Go somewhere</a>  -->
+            <span class="badge badge-secondary">Akademis</span>
           </div>
         </div>
       </div>
     </div>
   </div>
+  </div>
 </section>
-<section class="news" style="margin-top: 172px;">
+
+<!-- berita  -->
+<section class="news" style="margin-top: 172px;" data-aos="zoom-in-left" data-aos-duration="3000">
   <div class="container">
     <h3 class="font-weight-bold">Berita</h3>
     <div class="row">
@@ -101,7 +162,8 @@
           <div class="card-body">
             <h5 class="card-title font-weight-bold">Card title</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="?pg=detail" class="btn btn-primary">Go somewhere</a>
+            <!-- <a href="?pg=detail" class="btn btn-primary">Go somewhere</a> -->
+            <span class="badge badge-secondary">Akademis</span>
           </div>
         </div>
       </div>
@@ -111,7 +173,8 @@
           <div class="card-body">
             <h5 class="card-title font-weight-bold">Card title</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            <span class="badge badge-secondary">Akademis</span>
           </div>
         </div>
       </div>
@@ -121,7 +184,8 @@
           <div class="card-body">
             <h5 class="card-title font-weight-bold">Card title</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <!-- <a href="#" class="btn btn-primary">Go somewhere</a>  -->
+            <span class="badge badge-secondary">Akademis</span>
           </div>
         </div>
       </div>
